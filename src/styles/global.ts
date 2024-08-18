@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
@@ -5,9 +6,6 @@ export default createGlobalStyle`
 
     * {
         font-family: "Epilogue", sans-serif;
-    }
-
-    body {
         background-color: ${(props) => props.theme.colors.siteBackground};
     }
 `;
